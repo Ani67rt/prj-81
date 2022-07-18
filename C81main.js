@@ -3,9 +3,9 @@ ctx=canvas.getContext("2d")
 
 ctx.beginPath()
 ctx.strokeStyle="blue"
-ctx.lineWidth=2
+ctx.lineWidth=5
 
-ctx.arc(150,150,50,0,2*Math.PI)
+ctx.arc(250,210,50,0,2*Math.PI)
 ctx.stroke()
 
 
@@ -14,28 +14,28 @@ ctx.beginPath()
 ctx.strokeStyle="green"
 ctx.lineWidth=2
 
-ctx.arc(170,300,50,0,2*Math.PI)
+ctx.arc(370,210,50,0,2*Math.PI)
 ctx.stroke()
 
 ctx.beginPath()
 ctx.strokeStyle="red"
 ctx.lineWidth=2
 
-ctx.arc(190,230,50,0,2*Math.PI)
+ctx.arc(490,210,50,0,2*Math.PI)
 ctx.stroke()
 
 ctx.beginPath()
 ctx.strokeStyle="yellow"
 ctx.lineWidth=2
 
-ctx.arc(160,400,50,0,2*Math.PI)
+ctx.arc(310,280,50,0,2*Math.PI)
 ctx.stroke()
 
 ctx.beginPath()
 ctx.strokeStyle="orange"
 ctx.lineWidth=2
 
-ctx.arc(250,180,50,0,2*Math.PI)
+ctx.arc(430,280,50,0,2*Math.PI)
 ctx.stroke()
 
 canvas.addEventListener("mousedown", mymousedown)
